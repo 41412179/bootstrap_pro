@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+    background: #666;
+}
+.test{
+    width: 320px;
+    height: 240px;
+    background: #999;
+    float: left; 
+    border: #999 solid;
+    margin: 20px;
+
+}
+/* div默认上面排列，float:left可以让左右排列 */
+/* margin表示几百 */
+/* padding margin区别 */
+/* css定位 */
+
+.test1{
+    width: 320px;
+    height: 240px;
+    background-color: #fff;
+    position: relative;
+}
+
+.test2{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    /* : 10px; */
+}
